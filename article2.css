@@ -372,6 +372,16 @@ nav .navList{
     display: none;
 }
 
+#bibli{
+    margin-bottom: 30px;
+}
+
+.citationList li{
+    line-height: 30px;
+    font-size: 12px;
+    /* border: 1px solid red; */
+}
+
 .recent{
     width:100%;
     height: 100vh;

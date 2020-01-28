@@ -238,7 +238,7 @@ function checkLabels() {
     var articles = document.querySelectorAll('.catchArticle');
     var catchContainer = document.querySelector('.articleSlider .catchContainer');
     var slideHeight = articles[0].clientHeight;
-    var backgroundImages = ["images/park-troopers-ACv87kYooQQ-unsplash.png", "images/water-damage.jpg", "images/106028803-1563537886690gettyimages-1153657517.jpeg"]
+    var backgroundImages = ["images/disneyDark.png", "images/svfDark.png", "images/5gDark.png"]
     var main = document.querySelector('.main');
 
     for (var i = 0; i < boxes.length; i++) {

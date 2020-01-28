@@ -201,15 +201,20 @@ nav .navList{
     width: 100%;
     height: 100vh;
     /* padding-top: 40vh; */
-    background-image: url("images/park-troopers-ACv87kYooQQ-unsplash.png");
+    background-image: url("images/5gDark.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-color: black;
+    background-size: cover;
     transition: 1s ease-in-out background-image;
     /* background-attachment */
     /* position: relative; */
     max-height: 1000px;
     overflow: hidden;
+}
+
+.cardLayout .card .headLink, .cardLayout .card .headLink:visited{
+    color: black;
 }
 
 .main .social{
@@ -368,6 +373,10 @@ nav .navList{
 
 .articleBody #svfTimeLine{
     padding-top: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: block;
+    /* border: 1px solid red; */
 }
 
 .articleBody #waveLength{
@@ -383,6 +392,7 @@ nav .navList{
     display: block;
     margin: auto;
     padding-top: 40px;
+    max-width: 900px;
     /* min-width: 400px; */
 }
 
@@ -390,6 +400,10 @@ nav .navList{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
+}
+
+.articleBody #conclusionChart{
+    padding: 30px;
 }
 
 .articleBody #svfLogo{
@@ -412,6 +426,20 @@ nav .navList{
 
 .mobileHeading{
     display: none;
+}
+
+#bibli{
+    margin-bottom: 30px;
+}
+
+.citationList li{
+    line-height: 30px;
+    font-size: 12px;
+    /* border: 1px solid red; */
+}
+
+.citationList li a, .citationList li a:visited{
+    color: #0000EE;
 }
 
 .recent{
@@ -470,15 +498,15 @@ nav .navList{
 }
 
 .recent .cardLayout .card:nth-child(1) .cardImage{
-    background-image: url("images/water-damage.jpg");
+    background-image: url("images/Cover\ Photo.png");
 }
 
 .recent .cardLayout .card:nth-child(2) .cardImage{
-    background-image: url("images/106028803-1563537886690gettyimages-1153657517.jpeg");
+    background-image: url("images/5d96bafe754caa057a3a3bab.jpeg");
 }
 
 .recent .cardLayout .card:nth-child(3) .cardImage{
-    background-image: url("images/blake-wisz-q3o_8MteFM0-unsplash.png");
+    background-image: url("images/mika-baumeister-gwWkv06WYFY-unsplash.jpg");
 }
 
 .recent .cardLayout .card .cardContent{
@@ -696,6 +724,20 @@ footer .social i:hover{
 
     .recent .cardLayout .card:hover{
         border: none;
+    }
+
+    .articleBody{
+        /* background-color: red; */
+    }
+
+    .articleBody .conclusionLayout{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .articleBody #conclusionChart{
+        max-width: 500px;
+        display: block;
+        margin: 0 auto;
     }
 }
 

@@ -217,7 +217,7 @@ nav .navList{
     height: 100vh;
     min-height: 900px;
     /* padding-top: 40vh; */
-    background-image: url("images/park-troopers-ACv87kYooQQ-unsplash.png");
+    background-image: url("images/disneyDark.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-color: black;
@@ -333,7 +333,7 @@ nav .navList{
 
 .catchContainer{
     position: absolute;
-    width: 75%;
+    width: 85%;
     overflow-y: hidden;
     transition: 0.8s top ease-in-out;
     /* max-height: 80%; */
@@ -343,6 +343,10 @@ nav .navList{
 
 .catchContainer:hover{
     transform: translateY(-450px);
+}
+
+.cardLayout .card .headLink, .cardLayout .card .headLink:visited{
+    color: black;
 }
 
 .catchArticle{
@@ -383,7 +387,7 @@ nav .navList{
 
 .catchArticle .headline{
     color: #FFFFFF;
-    font-size: 4.5em;
+    font-size: 4.0em;
     text-transform: uppercase;
 }
 
@@ -435,7 +439,7 @@ nav .navList{
     height: 100vh;
     min-height: 900px;
     max-height: 1000px;
-    
+    display: none;
 }
 
 .recent h3{
@@ -565,7 +569,7 @@ nav .navList{
   }
 
 .feature #featureImage{
-    background-image: url("images/dylan-gillis-KdeqA3aTnBY-unsplash.png");
+    background-image: url("images/ME_Cover.PNG");
     background-size: cover;
     height: 750px;
     width: 48%;
@@ -752,6 +756,7 @@ button{
     min-height: 900px;
     position: relative;
     max-height: 1000px;
+    display: none;
 }
 
 .insights h3{
@@ -867,7 +872,7 @@ button{
     position: absolute;
     top: 0; left: 0;
     width: 100%; height: 100%;
-    background-image: url("images/fingerPrintBackground.png");
+    /* background-image: url("images/fingerPrintBackground.png"); */
     /* filter: grayscale(100%); */
     z-index: -1;
     opacity: .5;
@@ -915,15 +920,15 @@ button{
 }
 
 .network .cardLayout .card:nth-child(1) .cardImage{
-    background-image: url("images/clay-banks-31l-8hY1mt4-unsplash.png");
+    background-image: url("images/1\ -\ cover.png");
 }
 
 .network .cardLayout .card:nth-child(2) .cardImage{
-    background-image: url("images/jeff-siepman-uAB7Xxvwp4E-unsplash.png");
+    background-image: url("images/mika-baumeister-gwWkv06WYFY-unsplash.jpg");
 }
 
 .network .cardLayout .card:nth-child(3) .cardImage{
-    background-image: url("images/blake-cheek-6msKBfnPTgk-unsplash.png");
+    background-image: url("images/pasted\ image\ 0.png");
 }
 
 
@@ -1039,15 +1044,15 @@ button{
 }
 
 .resources .cardLayout .card:nth-child(1) .cardImage{
-    background-image: url("images/john-arano-h4i9G-de7Po-unsplash.png");
+    background-image: url("images/Cover\ Photo.png");
 }
 
 .resources .cardLayout .card:nth-child(2) .cardImage{
-    background-image: url("images/hermes-rivera-qbf59TU077Q-unsplash.png");
+    background-image: url("images/5d96bafe754caa057a3a3bab.jpeg");
 }
 
 .resources .cardLayout .card:nth-child(3) .cardImage{
-    background-image: url("images/annie-spratt-jY9mXvA15W0-unsplash.png");
+    background-image: url("images/disney\ plus\ .png");
 }
 
 .resources .cardLayout .card .cardContent{
@@ -1528,7 +1533,7 @@ footer .social i:hover{
 
 @media (max-width: 850px){
     .followOnIg{
-        min-height: 1200px;
+        min-height: 1600px;
     }
     .followOnIg .cardLayout{
         display: grid;
