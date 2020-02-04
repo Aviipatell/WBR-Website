@@ -268,7 +268,7 @@ nav .navList{
     /* height: 450px; */
     /* bottom: 120px; */
     transition: 0.8s top ease-in-out;
-    top: 40%;
+    top: 60%;
 }
 
 .catchArticle .about{
@@ -498,7 +498,7 @@ nav .navList{
     font-weight: bold;
     font-size: 0.9em;
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
     right: 20px;
     padding: 0;
 }
