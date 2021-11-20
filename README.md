@@ -1,6 +1,6 @@
 # Waterloo Business Review Website
 
-Created a website for the Waterloo Business Review (WBR) committee at the University of Waterloo to act as a platform for their articles regarding business strategy, entrpreneurship, and global affiars.
+Created a website for the Waterloo Business Review (WBR) committee at the University of Waterloo to act as a platform for their articles regarding business strategy, entrpreneurship, and global affiars. View live: [WBR Website](https://aviipatell.github.io/WBR-Website/)
 
 ## Getting Started:
 
