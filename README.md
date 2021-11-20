@@ -4,7 +4,7 @@ Created a website for the Waterloo Business Review (WBR) committee at the Univer
 
 ## Getting Started:
 
-Use git clone to download this project and open up the index.html file on a browser of your choice.
+Use `git clone` to download this project and open up the index.html file on a browser of your choice.
 
 ## Built With:
 
